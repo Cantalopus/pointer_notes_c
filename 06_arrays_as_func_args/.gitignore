@@ -1,0 +1,45 @@
+######################
+# VScode
+######################
+.vscode/
+.vscode/*
+!.vscode/settings.json
+
+######################
+# Build files
+######################
+/build-*-*
+/build-*
+/build-ninja-gcc
+/build-ninja-gcc/
+/build
+/build/
+/build-*/
+/build-*-*/
+
+######################
+# clangd
+######################
+/.cache
+/.cache/
+
+######################
+# Virtual links
+######################
+compile_commands.json
+
+######################
+# files
+######################
+tokenizer.zip
+
+######################
+# binary
+######################
+/bin
+/bin/
+
+######################
+# log files
+######################
+/git_logger
