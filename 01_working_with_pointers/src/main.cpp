@@ -86,5 +86,16 @@ int main() {
            // garbage address, and 
            // will cause a CRASH. 
 */
+    std::cout<<'\n';
+
+    int x = 10;
+    int *p2 = &x;
+
+    // Next lesson - pointer arithmetic
+    std::cout<<"pointer arithmetic: "<<std::endl;
+    std::cout<<"p2  : "<<p2  <<std::endl;
+    std::cout<<"p2+1: "<<p2+1<<std::endl;
+    std::cout<<"*(p2+1): "<<*(p2+1)<<" <<<This is a garbage value"<<std::endl;
+
     return 0;
 }
